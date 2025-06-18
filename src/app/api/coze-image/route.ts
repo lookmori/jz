@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import jwt from 'jsonwebtoken';
 // COZE 相关环境变量
 const COZE_CLIENT_ID_JWT = process.env.COZE_CLIENT_ID_JWT;
-const COZE_PUBLIC_KEY_ID_JWT = process.env.COZE_PUBLIC_KEY_ID_JWT || 'ph_pLtMNOaX4Nbb-vAEIAeLrMVQOVF-WlSzEKQY5ch4';
+const COZE_PUBLIC_KEY_ID_JWT = process.env.COZE_PUBLIC_KEY_ID_JWT || 'DAl7grpcR7J4o5iZGeZYPXZby2gt8cCpG6yqcUuG8QI';
 const COZE_API_BASE_JWT = process.env.COZE_API_BASE_JWT || 'https://api.coze.cn';
 const COZE_WORKFLOW_ID_JWT = process.env.COZE_WORKFLOW_ID_JWT;
 // 直接内联私钥
