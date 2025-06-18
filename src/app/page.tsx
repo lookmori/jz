@@ -171,10 +171,12 @@ export default function Home() {
                 <p className="text-gray-500">正在生成图像...</p>
               </div>
             ) : generatedImage ? (
-              <img 
+              <Image 
                 src={generatedImage} 
                 alt="AI生成的陶瓷图像" 
                 className="max-w-full max-h-full object-contain"
+                width={400}
+                height={400}
               />
             ) : (
               <div className="w-64 h-64 relative">
